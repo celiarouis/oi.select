@@ -1,4 +1,4 @@
-<ion-scroll zooming="true" direction="x">
+<div class="custom-scroll">
     <div class="select-search">
         <ul class="select-search-list">
             <li class="btn btn-default btn-xs select-search-list-item select-search-list-item_selection"
@@ -15,7 +15,7 @@
                 ng-show="showLoader"></li>
         </ul>
     </div>
-</ion-scroll>
+</div>
 <div class="select-dropdown" ng-show="isOpen">
     <ul ng-if="isOpen" class="select-dropdown-optgroup" ng-repeat="(group, options) in groups">
         <div class="select-dropdown-optgroup-header"
