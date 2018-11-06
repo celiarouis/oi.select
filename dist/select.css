@@ -3,6 +3,11 @@ oi-select {
   position: relative;
   width: 100%;
 }
+oi-select .custom-scroll {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  width: 100%;
+}
 oi-select .select-search {
   cursor: text;
   border: 1px solid #d9d9d9;
